@@ -56,3 +56,186 @@
     border-top-left-radius: 4px!important;
     border-bottom-left-radius: 4px!important;
 }
+
+/**
+ * input group buttons styling change for 
+ * has-success and has-danger states
+ * added by Kartik Visweswaran
+ */
+.has-success .bootstrap-touchspin .input-group-btn .btn-default {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #3c763d;
+}
+.has-success .bootstrap-touchspin .input-group-btn .btn-default:hover,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default:focus,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default.focus,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default:active,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default.active,
+.open > .dropdown-toggle.has-success .bootstrap-touchspin .input-group-btn .btn-default {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.has-success .bootstrap-touchspin .input-group-btn .btn-default:active,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default.active,
+.open > .dropdown-toggle.has-success .bootstrap-touchspin .input-group-btn .btn-default {
+    background-image: none;
+}
+
+.has-success .bootstrap-touchspin .input-group-btn .btn-default.disabled,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default[disabled]
+.has-success .bootstrap-touchspin .input-group-btn .btn-default.disabled:hover,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default[disabled]:hover
+.has-success .bootstrap-touchspin .input-group-btn .btn-default.disabled:focus,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default[disabled]:focus
+.has-success .bootstrap-touchspin .input-group-btn .btn-default.disabled.focus,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default[disabled].focus
+.has-success .bootstrap-touchspin .input-group-btn .btn-default.disabled:active,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default[disabled]:active
+.has-success .bootstrap-touchspin .input-group-btn .btn-default.disabled.active,
+.has-success .bootstrap-touchspin .input-group-btn .btn-default[disabled].active {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.has-success .bootstrap-touchspin .input-group-btn .btn-default .badge {
+    color: #5cb85c;
+    background-color: #fff;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn .btn-default {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #a94442;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn .btn-default:hover,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default:focus,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default.focus,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default:active,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default.active,
+.open > .dropdown-toggle.has-error .bootstrap-touchspin .input-group-btn .btn-default {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn .btn-default:active,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default.active,
+.open > .dropdown-toggle.has-error .bootstrap-touchspin .input-group-btn .btn-default {
+    background-image: none;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn .btn-default.disabled,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default[disabled]
+.has-error .bootstrap-touchspin .input-group-btn .btn-default.disabled:hover,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default[disabled]:hover
+.has-error .bootstrap-touchspin .input-group-btn .btn-default.disabled:focus,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default[disabled]:focus
+.has-error .bootstrap-touchspin .input-group-btn .btn-default.disabled.focus,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default[disabled].focus
+.has-error .bootstrap-touchspin .input-group-btn .btn-default.disabled:active,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default[disabled]:active
+.has-error .bootstrap-touchspin .input-group-btn .btn-default.disabled.active,
+.has-error .bootstrap-touchspin .input-group-btn .btn-default[disabled].active {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn .btn-default .badge {
+    color: #d9534f;
+    background-color: #fff;
+}
+
+/**
+ * vertical buttons
+ */
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #3c763d;
+}
+
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default:hover,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default:focus,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default.focus,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default:active,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default.active,
+.open > .dropdown-toggle.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default:active,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default.active,
+.open > .dropdown-toggle.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default {
+    background-image: none;
+}
+
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled]
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled:hover,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled]:hover
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled:focus,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled]:focus
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled.focus,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled].focus
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled:active,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled]:active
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled.active,
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled].active {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.has-success .bootstrap-touchspin .input-group-btn-vertical .btn-default .badge {
+    color: #5cb85c;
+    background-color: #fff;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #a94442;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default:hover,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default:focus,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default.focus,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default:active,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default.active,
+.open > .dropdown-toggle.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default:active,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default.active,
+.open > .dropdown-toggle.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default {
+    background-image: none;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled]
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled:hover,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled]:hover
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled:focus,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled]:focus
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled.focus,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled].focus
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled:active,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled]:active
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default.disabled.active,
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default[disabled].active {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.has-error .bootstrap-touchspin .input-group-btn-vertical .btn-default .badge {
+    color: #d9534f;
+    background-color: #fff;
+}
