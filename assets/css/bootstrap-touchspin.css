@@ -4,6 +4,8 @@
  *  http://www.virtuosoft.eu/code/bootstrap-touchspin/
  *
  *  Made by István Ujj-Mészáros
+ *  Modifications by Kartik Visweswaran
+ *
  *  Under Apache License v2.0 License
  */
 
@@ -42,4 +44,10 @@
   left: 5px;
   font-size: 9px;
   font-weight: normal;
+}
+
+/** Added by Kartik V */
+.input-left-rounded {
+    border-top-left-radius: 4px!important;
+    border-bottom-left-radius: 4px!important;
 }
