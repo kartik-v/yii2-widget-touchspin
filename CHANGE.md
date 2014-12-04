@@ -1,3 +1,10 @@
+version 1.2.0
+=============
+**Date:** 04-Dec-2014
+
+- (enh #2): Enhance widget for updated bootstrap-touchspin plugin.
+- (enh #3): Validate InputWidget disabled setting.
+
 version 1.1.0
 =============
 **Date:** 15-Nov-2014
