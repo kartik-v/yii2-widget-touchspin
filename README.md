@@ -1,6 +1,12 @@
 yii2-widget-touchspin
 =======================
 
+[![Latest Stable Version](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/v/stable.svg)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![License](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/license.svg)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![Total Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/downloads.svg)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![Monthly Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/d/monthly.png)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![Daily Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/d/daily.png)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+
 The TouchSpin widget is a Yii 2 wrapper for for the [bootstrap-touchspin](http://www.virtuosoft.eu/code/bootstrap-touchspin) plugin by István Ujj-Mészáros, with certain additional enhancements. This input widget is a mobile and touch friendly input spinner component for Bootstrap 3. You can use the widget buttons to rapidly increase and decrease numeric and/or decimal values in your input field. The widget can be setup to include model validation rules for the related model attribute.
 
 > NOTE: This extension is a sub repo split of [yii2-widgets](https://github.com/kartik-v/yii2-widgets). The split has been done since 08-Nov-2014 to allow developers to install this specific widget in isolation if needed. One can also use the extension the previous way with the whole suite of [yii2-widgets](http://demos.krajee.com/widgets).
