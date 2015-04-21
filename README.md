@@ -1,11 +1,11 @@
 yii2-widget-touchspin
 =======================
 
-[![Latest Stable Version](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/v/stable.svg)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
-[![License](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/license.svg)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
-[![Total Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/downloads.svg)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
-[![Monthly Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/d/monthly.png)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
-[![Daily Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/d/daily.png)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![Latest Stable Version](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/v/stable)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![License](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/license)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![Total Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/downloads)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![Monthly Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/d/monthly)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![Daily Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/d/daily)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
 
 The TouchSpin widget is a Yii 2 wrapper for for the [bootstrap-touchspin](http://www.virtuosoft.eu/code/bootstrap-touchspin) plugin by István Ujj-Mészáros, with certain additional enhancements. This input widget is a mobile and touch friendly input spinner component for Bootstrap 3. You can use the widget buttons to rapidly increase and decrease numeric and/or decimal values in your input field. The widget can be setup to include model validation rules for the related model attribute.
 
