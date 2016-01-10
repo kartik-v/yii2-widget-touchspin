@@ -1,37 +1,39 @@
 <?php
 
 /**
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2016
  * @package yii2-widgets
  * @subpackage yii2-widget-touchspin
- * @version 1.2.0
+ * @version 1.2.1
  */
 
 namespace kartik\touchspin;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use yii\helpers\Json;
+use kartik\base\InputWidget;
 
 /**
- * TouchSpin widget is a Yii2 wrapper for the bootstrap-touchspin plugin by
- * István Ujj-Mészáros. This input widget is a mobile and touch friendly input
- * spinner component for Bootstrap 3.
+ * TouchSpin widget is a Yii2 wrapper for the bootstrap-touchspin plugin by István Ujj-Mészáros. This input widget is a
+ * mobile and touch friendly input spinner component for Bootstrap 3.
  *
  * @author Kartik Visweswaran <kartikv2@gmail.com>
  * @since 1.0
  * @see http://www.virtuosoft.eu/code/bootstrap-touchspin/
  */
-class TouchSpin extends \kartik\base\InputWidget
+class TouchSpin extends InputWidget
 {
     /**
-     * Initializes the widget
-     *
-     * @throw InvalidConfigException
+     * @inheritdoc
      */
-    public function init()
+    public $pluginName = 'TouchSpin';
+
+    /**
+     * @inheritdoc
+     */
+    public function run()
     {
-        parent::init();
+        parent::run();
         $this->setPluginOptions();
         $this->registerAssets();
         echo $this->getInput('textInput');
@@ -50,8 +52,9 @@ class TouchSpin extends \kartik\base\InputWidget
             'buttondown_txt' => '<i class="glyphicon glyphicon-backward"></i>',
         ];
         $this->pluginOptions = array_replace_recursive($defaults, $this->pluginOptions);
-        if (ArrayHelper::getValue($this->pluginOptions, 'verticalbuttons', false) 
-            && empty($this->pluginOptions['prefix'])) {
+        if (ArrayHelper::getValue($this->pluginOptions, 'verticalbuttons', false) &&
+            empty($this->pluginOptions['prefix'])
+        ) {
             Html::addCssClass($this->options, 'input-left-rounded');
         }
     }
@@ -63,6 +66,6 @@ class TouchSpin extends \kartik\base\InputWidget
     {
         $view = $this->getView();
         TouchSpinAsset::register($view);
-        $this->registerPlugin('TouchSpin');
+        $this->registerPlugin($this->pluginName);
     }
 }
