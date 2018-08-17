@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2016
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2018
  * @package yii2-widgets
  * @subpackage yii2-widget-touchspin
- * @version 1.2.1
+ * @version 1.2.2
  */
 
 namespace kartik\touchspin;
@@ -44,12 +44,17 @@ class TouchSpin extends InputWidget
      */
     protected function setPluginOptions()
     {
-        $css = $this->disabled ? 'btn btn-default disabled' : 'btn btn-default';
+        $isBs4= $this->isBs4();
+        $css = 'btn btn-' . ($isBs4 ? 'secondary' : 'default');
+        $iconPrefix = $isBs4 ? 'fas fa' : 'glyphicon glyphicon';
+        if ($this->disabled) {
+            $css .= ' disabled';
+        }
         $defaults = [
             'buttonup_class' => $css,
             'buttondown_class' => $css,
-            'buttonup_txt' => '<i class="glyphicon glyphicon-forward"></i>',
-            'buttondown_txt' => '<i class="glyphicon glyphicon-backward"></i>',
+            'buttonup_txt' => "<i class='{$iconPrefix}-forward'></i>",
+            'buttondown_txt' => "<i class='{$iconPrefix}-backward'></i>",
         ];
         $this->pluginOptions = array_replace_recursive($defaults, $this->pluginOptions);
         if (ArrayHelper::getValue($this->pluginOptions, 'verticalbuttons', false) &&

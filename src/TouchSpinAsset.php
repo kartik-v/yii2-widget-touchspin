@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2016
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2018
  * @package yii2-widgets
  * @subpackage yii2-widget-touchspin
- * @version 1.2.1
+ * @version 1.2.2
  */
 
 namespace kartik\touchspin;
@@ -25,8 +25,8 @@ class TouchSpinAsset extends AssetBundle
     public function init()
     {
         $this->setSourcePath(__DIR__ . '/assets');
-        $this->setupAssets('css', ['css/bootstrap-touchspin']);
-        $this->setupAssets('js', ['js/bootstrap-touchspin']);
+        $this->setupAssets('css', ['css/jquery.bootstrap-touchspin']);
+        $this->setupAssets('js', ['js/jquery.bootstrap-touchspin']);
         parent::init();
     }
 }

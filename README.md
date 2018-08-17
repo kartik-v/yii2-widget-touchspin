@@ -1,7 +1,8 @@
 yii2-widget-touchspin
 =======================
 
-[![Latest Stable Version](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/v/stable)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![Stable Version](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/v/stable)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
+[![Unstable Version](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/v/unstable)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
 [![License](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/license)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
 [![Total Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/downloads)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
 [![Monthly Downloads](https://poser.pugx.org/kartik-v/yii2-widget-touchspin/d/monthly)](https://packagist.org/packages/kartik-v/yii2-widget-touchspin)
@@ -29,9 +30,9 @@ or add
 
 to the ```require``` section of your `composer.json` file.
 
-## Latest Release
+## Release Changes
 
-> NOTE: The latest version of the module is v1.2.1. Refer the [CHANGE LOG](https://github.com/kartik-v/yii2-widget-touchspin/blob/master/CHANGE.md) for details.
+> NOTE: Refer the [CHANGE LOG](https://github.com/kartik-v/yii2-widget-touchspin/blob/master/CHANGE.md) for details on changes to various releases.
 
 ## Demo
 

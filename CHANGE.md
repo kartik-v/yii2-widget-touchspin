@@ -1,6 +1,16 @@
 Change Log: `yii2-widget-touchspin`
 ===================================
 
+## Version 1.2.2
+
+**Date:** 17-Aug-2018
+
+- Add Bootstrap 4.x support
+- Upgrade source plugin to latest release
+- Add github contribution and PR/issue log templates.
+- Update copyright year to current.
+- Reorganize all source code in `src` directory.
+
 ## Version 1.2.1
 
 **Date:** 10-Jan-2016
