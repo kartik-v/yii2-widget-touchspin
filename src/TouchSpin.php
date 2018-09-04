@@ -4,13 +4,11 @@
  * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2018
  * @package yii2-widgets
  * @subpackage yii2-widget-touchspin
- * @version 1.2.2
+ * @version 1.2.3
  */
 
 namespace kartik\touchspin;
 
-use yii\helpers\ArrayHelper;
-use yii\helpers\Html;
 use kartik\base\InputWidget;
 
 /**
@@ -30,6 +28,7 @@ class TouchSpin extends InputWidget
 
     /**
      * @inheritdoc
+     * @throws \yii\base\InvalidConfigException
      */
     public function run()
     {
@@ -41,27 +40,22 @@ class TouchSpin extends InputWidget
 
     /**
      * Set the plugin options
+     * @throws \yii\base\InvalidConfigException
      */
     protected function setPluginOptions()
     {
-        $isBs4= $this->isBs4();
-        $css = 'btn btn-' . ($isBs4 ? 'secondary' : 'default');
-        $iconPrefix = $isBs4 ? 'fas fa' : 'glyphicon glyphicon';
+        $css = 'btn ' . $this->getDefaultBtnCss();
+        $iconPrefix = $this->getDefaultIconPrefix();
         if ($this->disabled) {
             $css .= ' disabled';
         }
-        $defaults = [
+        $defaultPluginOptions = [
             'buttonup_class' => $css,
             'buttondown_class' => $css,
-            'buttonup_txt' => "<i class='{$iconPrefix}-forward'></i>",
-            'buttondown_txt' => "<i class='{$iconPrefix}-backward'></i>",
+            'buttonup_txt' => "<i class='{$iconPrefix}forward'></i>",
+            'buttondown_txt' => "<i class='{$iconPrefix}backward'></i>",
         ];
-        $this->pluginOptions = array_replace_recursive($defaults, $this->pluginOptions);
-        if (ArrayHelper::getValue($this->pluginOptions, 'verticalbuttons', false) &&
-            empty($this->pluginOptions['prefix'])
-        ) {
-            Html::addCssClass($this->options, 'input-left-rounded');
-        }
+        $this->pluginOptions = array_replace_recursive($defaultPluginOptions, $this->pluginOptions);
     }
 
     /**
@@ -70,7 +64,7 @@ class TouchSpin extends InputWidget
     public function registerAssets()
     {
         $view = $this->getView();
-        TouchSpinAsset::register($view);
+        TouchSpinAsset::registerBundle($view, $this->bsVersion);
         $this->registerPlugin($this->pluginName);
     }
 }
