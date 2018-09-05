@@ -3,9 +3,9 @@ Change Log: `yii2-widget-touchspin`
 
 ## Version 1.2.3
 
-**Date:** _under development_
+**Date:** 05-Sep-2018
 
-- (enh #10): Correct `btn-vertical` bootstrap markup styling. 
+- (enh #10): Correct `btn-vertical` bootstrap markup styling.
 
 ## Version 1.2.2
 

@@ -3,10 +3,10 @@
  *  A mobile and touch friendly input spinner component for Bootstrap 3 & 4.
  *  http://www.virtuosoft.eu/code/bootstrap-touchspin/
  *
- * Modified by Kartik Visweswaran, Krajee.com, Sep 2018
- *
  *  Made by István Ujj-Mészáros
  *  Under Apache License v2.0 License
+ *
+ * Modified by Kartik Visweswaran, Krajee.com, Sep 2018
  */
 (function(factory) {
   if (typeof define === 'function' && define.amd) {
@@ -285,6 +285,9 @@
         }
 
         if (settings.verticalbuttons) {
+          /*
+           * BEGIN change by Kartik for better BS3 & BS4 styling
+           */
           html = '<div class="input-group ' + inputGroupSize + ' bootstrap-touchspin bootstrap-touchspin-injected">' +
               '<span class="input-group-addon input-group-prepend bootstrap-touchspin-prefix">' +
               '<span class="input-group-text">' + settings.prefix + '</span>' +
@@ -302,6 +305,9 @@
               '</button>' +
               '</span>' +
               '</span></div>';
+            /*
+             * END change by Kartik for better BS3 & BS4 styling
+             */
         }
         else {
           html = '<div class="input-group bootstrap-touchspin bootstrap-touchspin-injected"><span class="input-group-btn input-group-prepend"><button class="' + settings.buttondown_class + ' bootstrap-touchspin-down" type="button">' + settings.buttondown_txt + '</button></span><span class="input-group-addon bootstrap-touchspin-prefix input-group-prepend"><span class="input-group-text">' + settings.prefix + '</span></span><span class="input-group-addon bootstrap-touchspin-postfix input-group-append"><span class="input-group-text">' + settings.postfix + '</span></span><span class="input-group-btn input-group-append"><button class="' + settings.buttonup_class + ' bootstrap-touchspin-up" type="button">' + settings.buttonup_txt + '</button></span></div>';

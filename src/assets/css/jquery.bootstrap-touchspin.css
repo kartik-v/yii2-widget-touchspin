@@ -29,7 +29,11 @@
     width: 2em;
     padding: 0;
     text-align: center;
-    line-height: 1;
+    line-height: 0.4;
+}
+
+.bootstrap-touchspin .input-group-btn-vertical > .btn i {
+    font-size: 9px;
 }
 
 .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up {
